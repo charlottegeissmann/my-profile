@@ -69,14 +69,21 @@
 
  .card-sidebar a {
   color: white;
-  padding-left: 30px;
+  margin-left: 30px;
   position: relative;
   text-transform: uppercase;
 }
 
  .card-sidebar a:hover {
   color: #381710;
-  /*border-bottom:1px solid #bcbcbc;*/
+}
+
+#border:hover {
+  color: #381710;
+  border-bottom: #381710;
+  border-bottom-style: solid;
+  border-top: #381710;
+  border-top-style: solid;
 }
 
 .awards {

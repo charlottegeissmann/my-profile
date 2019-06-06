@@ -13,7 +13,25 @@
 
 .btn-black:hover {
   background-color: #b93d2a;
+  color: white;
+}
+
+.btn-resume{
+  background-color: #381710;
     color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #381710;
+    border-width: 2px;
+    text-align: center;
+    font-size: 15px;
+    float: unset;
+}
+
+.btn-resume:hover {
+  background-color: white;
+    color: #381710;
 }
 
 .btn-index-right{
