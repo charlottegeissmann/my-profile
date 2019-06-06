@@ -19,6 +19,10 @@
     margin: 20px;
 }
 
+.card-white:hover {
+  box-shadow: 6px 2px 9px rgb(185, 61, 41);
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -190,7 +194,6 @@ border-bottom:1px solid white;
   /* margin: 20px; */
 }
 
-
 .block-text {
   background-color: #ffffff;
   padding: 2rem;
@@ -214,6 +217,10 @@ border-bottom:1px solid white;
   background-color: #ffffff;
   box-shadow: 1px 1px 3px rgb(185, 61, 41);
   border-radius: 3px;
+}
+
+.skill-block:hover {
+  box-shadow: 6px 2px 9px rgb(185, 61, 41);
 }
 
 .hobbies-block {
