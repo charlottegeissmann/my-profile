@@ -10,45 +10,46 @@
 @import url("components/container.css");
 @import url("components/media.css");
 
-body {         
-  background-color: F6F6F6; 
+body {
+  background-color: F6F6F6;
   line-height: 1.16;
   font-weight: lighter;
   margin: 0px auto
 }
-/*h1, h2, h3, h4 { 
+/*h1, h2, h3, h4 {
   font-family: Lucida, serif;
   font-weight: lighter;
   flex-grow: 1;
   padding-left: 20px;
 }*/
 
-h1 {  
-  color: white; 
+h1 {
+  color: white;
   font-family: Lucida, serif;
   font-size: 60px;
   letter-spacing: 5px;
   text-align: center;
 }
 
-h2 {         
-  color: #b93d2a; 
-  font-family: Lucida, serif;
-  font-weight: bold;
-  font-size: 26px;
-  text-align: justify;
+h2 {
+    color: white;
+    font-family: Lucida, serif;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: justify;
+    background-color: #F99C9C
 }
 
-h3 {         
-  color: #8a1c13; 
+h3 {
+  color: #F99C9C;
   font-family: Lucida, serif;
   font-weight: bold;
   font-size: 18px;
   text-align: justify;
 }
 
-h4 {         
-  color: #381710; 
+h4 {
+  color: #381710;
   font-family: Lucida, serif;
   font-weight: lighter;
   font-style: italic;
@@ -56,18 +57,26 @@ h4 {
   text-align: justify;
 }
 
-a {         
+h5 {
+    color: white;
+    font-family: Lucida, serif;
+    font-weight: bold;
+    font-size: 28px;
+    text-align: justify
+}
+
+a {
   text-decoration: none;
   color:#0089c9;
   transition: color 0.3s ease;
 }
-a:hover { 
+a:hover {
   color:#381710;
 }
-p {         
+p {
   text-justify: justify;
   font-size: 14px;
-  color:#828d99;
+  color:#949292;
 }
 
 /*Header*/
@@ -78,7 +87,7 @@ header {
 }
 
 .header-title {
-  color: #6d1009; 
+  color: black;
   font-family: Lucida, serif;
   font-weight: bold;
   font-size: 26px;
@@ -86,7 +95,7 @@ header {
 }
 
 .header-subtitle {
-  color: #8a1c13; 
+  color: #F99C9C;
   font-family: Lucida, serif;
   font-weight: bold;
   font-size: 18px;
