@@ -52,7 +52,6 @@ h4 {
   color: #381710;
   font-family: Lucida, serif;
   font-weight: lighter;
-  font-style: italic;
   font-size: 14px;
   text-align: justify;
 }
@@ -77,6 +76,7 @@ p {
   text-justify: justify;
   font-size: 14px;
   color:#949292;
+  font-style: italic
 }
 
 /*Header*/

@@ -1,0 +1,49 @@
+/* Banners - Index*/
+
+.banner-index {
+  /* 1. Set a background image - specify image to use as a div // filter = linear-gradiant*/
+  background-color: black;
+  /*background-image: linear-gradient(-50deg, rgba(0,0,0, 0.1) 0%, rgba(0,0,0, 0.6) 50%), url(https://images.pexels.com/photos/2275453/pexels-photo-2275453.jpeg?cs=srgb&dl=beautiful-branch-bright-2275453.jpg&fm=jpg); /
+  /* 2. Make the background image cover the banner div - cover =  will make the image cover the div */
+  linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%);
+  background-size: cover;
+  /* 3. Center the image - center image exactly on center of the div */
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+}
+
+.banner-index h1 {
+  color: white;
+  font-size: 60px;
+  text-align: left;
+  padding-left:0;
+  font-weight: bold;
+}
+.banner-index h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  padding-left:0;
+}
+
+.banner-index h3 {
+  color: #F99C9C;
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+  padding-left: 0;
+  /* position: absolute; */
+  /* left: 0%; */
+  /* right: 0%; */
+  /* top: 0%; */
+  /* bottom: 0%; */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #F99C9C;
+}
